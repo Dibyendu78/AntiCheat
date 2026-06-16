@@ -20,13 +20,11 @@ env/
 audio_env/
 .env.aws/
 # ML artifacts (do not commit model weights)
-*.pt
-*.pth
+
+
 *.onnx
 *.tflite
-best.pt
-model.pt
-yolov8n.pt
+
 
 # Secrets and keys
 *.pem
