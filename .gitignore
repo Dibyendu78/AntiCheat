@@ -1,0 +1,59 @@
+# Project .gitignore for ExamGuard
+
+# Node (frontend)
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.cache/
+venv/
+.venv/
+env/
+audio_env/
+.env.aws/
+# ML artifacts (do not commit model weights)
+*.pt
+*.pth
+*.onnx
+*.tflite
+best.pt
+model.pt
+yolov8n.pt
+
+# Secrets and keys
+*.pem
+*.key
+.env
+*.env
+.env.aws
+
+# Logs and runtime
+logs/
+*.log
+tmp/
+temp/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS
+.DS_Store
+
+# Coverage
+.coverage
+coverage/
+
+# Build / Misc
+dist/
+build/
+.terraform/

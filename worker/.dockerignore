@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.git
+.gitignore
+.env
+*.md
+tests/
+frontend/
+aws/
+audio_env/
